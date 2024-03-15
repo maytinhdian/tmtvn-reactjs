@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
+import { Box } from '@mui/material';
+import { Component } from 'react';
 
 class header extends Component {
     render() {
         return (
-            <div>
+            <Box sx={{color:"primary.main"}}>
                 <h1>Header</h1>
-            </div>
+            </Box>
         );
     }
 }
