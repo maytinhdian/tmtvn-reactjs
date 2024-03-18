@@ -7,7 +7,7 @@ class defaultLayout extends Component {
     return (
       <>
         <Header />
-        <Outlet />
+        <Outlet/>
         <Footer />
       </>
     );

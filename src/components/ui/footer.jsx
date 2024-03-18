@@ -3,9 +3,9 @@ import { Component } from 'react';
 class footer extends Component {
     render() {
         return (
-            <div>
-                    <h1>Footer </h1>
-            </div>
+            <footer>
+                    <h1>TMT Innovative Sollution Co.,ltd </h1>
+            </footer>
         );
     }
 }

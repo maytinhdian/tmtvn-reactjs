@@ -1,11 +1,12 @@
+import { Container } from '@mui/material';
 import { Component } from 'react';
 
 class guestLayout extends Component {
     render() {
         return (
-            <div>
+            <Container maxWidth="xl" sx={{bgcolor:"yellowgreen"}} fixed>
                 <h1>Guest Layout</h1>
-            </div>
+            </Container>
         );
     }
 }
