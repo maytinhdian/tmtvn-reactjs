@@ -1,11 +1,12 @@
 import { Component } from 'react';
+import { Box } from "@mui/material";
 
 class footer extends Component {
     render() {
         return (
-            <footer>
-                    <h1>TMT Innovative Sollution Co.,ltd </h1>
-            </footer>
+            <Box component="footer" bgcolor="primary.main" color="white">
+                    <h2>TMT Innovative Sollution Co.,ltd </h2>
+            </Box>
         );
     }
 }

@@ -1,6 +1,6 @@
 import { createTheme } from "@mui/material";
 
-const tmtBlue = "#5a6688";
+const tmtBlue = "#714dc7";
 const tmtOrange = "#FFBA60";
 
 const theme = createTheme({
